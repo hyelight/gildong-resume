@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+:root {
+  --font-family: Montserrat;
+  --h2-color: rgb(172, 168, 168);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  font-family: var(--font-family);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.full-screen {
+  width: 620px;
+  height: 650px;
+  box-shadow: 3px 3px 5px gainsboro, -3px -3px 5px gainsboro;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+}
+.header .title-box h1 {
+  font-style: italic;
+  float: right;
+  margin-bottom: 20px;
+}
+.header .title-box h1 + p {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.main .about-me_section h2 {
+  color: var(--h2-color);
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+.main .about-me_section .about-me_line {
+  background-color: var(--h2-color);
+  height: 0.3px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main .about-me_section .lorem-ipsum {
+  color: rgb(66, 65, 65);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.main .experience_section h2 {
+  color: var(--h2-color);
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+.main .experience_section .experience_line {
+  background-color: var(--h2-color);
+  height: 0.3px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main .experience_section .content-wrap {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.main .experience_section .content-wrap .content_title {
+  float: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main .experience_section .content-wrap .content_period {
+  float: right;
+}
+.main .experience_section .content_p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+}
+.footer a {
+  margin: 0 5px;
+}
+.footer a img {
+  width: 25px;
+  height: 25px;
+}
