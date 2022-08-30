@@ -1,1 +1,2 @@
-# 멋사 22.08.29 이력서 양식 연습
+# 22.08.29 - resume practice in CodeLion
+float 사용해보기
